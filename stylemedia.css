@@ -1,0 +1,110 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) and (min-width: 360px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    width: auto;
+  }
+  nav ul {
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-top: 30px;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+
+  .grid-left h2 {
+    width: 70vw;
+  }
+
+  .grid-left h1 {
+    max-width: 360px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .button-signin {
+    padding: 0;
+  }
+
+  .button-signup {
+    margin-left: 20px;
+  }
+  .grid {
+    margin: 0;
+    max-width: 360px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: auto;
+  }
+  .grid-right img {
+    width: 170px;
+  }
+
+  .grid-left {
+    max-width: 360px;
+    justify-content: center;
+    display: inline-flex;
+    vertical-align: middle;
+  }
+
+  .popular-dishes {
+    max-width: 360px;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .popular {
+    margin: 10px;
+  }
+
+  .item img {
+    width: 60px;
+    margin-left: 30px;
+  }
+}
+
+/*  */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  ...;
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  ...;
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  ...;
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  ...;
+} */
